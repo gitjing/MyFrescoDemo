@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.ljj.myfrescodemo.basicusage.FadeDurationActivity">
+
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/simpleView_fade"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        fresco:placeholderImage="@color/placeHolder"
+
+        />
+
+    <!--fresco:fadeDuration="300"  XML设置渐变的时间-->
+
+</RelativeLayout>

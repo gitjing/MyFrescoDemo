@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.ljj.myfrescodemo.basicusage.ProgressBarActivity">
+
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/simpleView_progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <!--
+    添加下面,设置自己的加载图片
+        fresco:placeholderImage="@color/placeHolder"
+        fresco:progressBarAutoRotateInterval="1000"
+        fresco:progressBarImage="@mipmap/ic_launcher"
+        fresco:progressBarImageScaleType="centerInside"-->
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MyFrescoDemo</string>
+    <string name="title_activity_simple_show">SimpleShowActivity</string>
+    <string name="title_activity_fade_duration">FadeDurationActivity</string>
+    <string name="title_activity_circle">CircleActivity</string>
+    <string name="title_activity_abnormal">AbnormalActivity</string>
+    <string name="title_activity_progress_bar">ProgressBarActivity</string>
+    <string name="title_activity_overlay_show">OverlayShowActivity</string>
+    <string name="title_activity_gif_image">GifImageActivity</string>
+    <string name="title_activity_low_resolution">LowResolutionActivity</string>
+</resources>
