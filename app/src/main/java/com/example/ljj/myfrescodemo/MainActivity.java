@@ -18,6 +18,7 @@ import com.example.ljj.myfrescodemo.basicusage.OverlayShowActivity;
 import com.example.ljj.myfrescodemo.basicusage.ProgressBarActivity;
 import com.example.ljj.myfrescodemo.basicusage.SimpleShowActivity;
 import com.example.ljj.myfrescodemo.demolist.ActivityHolder;
+import com.example.ljj.myfrescodemo.postprocessor.PostprocessorActivity;
 
 
 import butterknife.BindView;
@@ -56,6 +57,7 @@ public class MainActivity extends AppCompatActivity {
         activityHolder.addActivity("overlayShow",OverlayShowActivity.class);
         activityHolder.addActivity("gifImage  Show",GifImageActivity.class);
         activityHolder.addActivity(" low resolution", LowResolutionActivity.class);
+        activityHolder.addActivity(" grid PrstProcessor", PostprocessorActivity.class);
 
 
     }

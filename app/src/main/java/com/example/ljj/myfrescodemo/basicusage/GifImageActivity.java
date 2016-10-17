@@ -22,7 +22,9 @@ import butterknife.ButterKnife;
 
 /**
  * gif图加载及注意事项
- * 注:加载gif图片一定要指定setAutoPlayAnimations为true,否则加载出来的图片不会动态展示
+ * 注:加载gif图片一定要指定setAutoPlayAnimations为true,来实现图片下载完之后自动播放，同时，当View从屏幕移除时，停止播放,否则加载出来的图片不会动态展示
+ * 如果不添加的话可以手动出发动画开始,在Listener中实现anim.satrt方法
+ *
  */
 public class GifImageActivity extends AppCompatActivity {
 

@@ -23,7 +23,7 @@ public class ImageUri {
     public static final String gifImage = "http://dn-assets-gitcafe-com.qbox.me/Kaedea/Kaede-Assets/raw/gitcafe-pages/image/other/animation2.gif";
     public static final String highResImage = "http://img0.ph.126.net/5Qzyq0bNejstcEaEJwWy6Q==/6630442143582805578.jpg";
     public static final String lowResImage = "http://imga1.pic21.com/bizhi/140219/07653/s04.jpg";
-
+    public static final String postprocessorImage = "http://cdn.duitang.com/uploads/item/201504/14/20150414H2341_zfJkG.thumb.700_0.jpeg";
 
 
 
@@ -61,5 +61,9 @@ public class ImageUri {
 
     public static Uri getLowResImage() {
         return Uri.parse(lowResImage);
+    }
+
+    public static Uri getPostprocessorImage() {
+        return Uri.parse(postprocessorImage);
     }
 }

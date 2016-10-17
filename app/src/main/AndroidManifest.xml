@@ -44,9 +44,11 @@
         <activity
             android:name=".basicusage.LowResolutionActivity"
             android:label="@string/title_activity_low_resolution" />
-        <activity android:name=".postprocessor.PostprocessorActivity"></activity>
-
-
+        <activity android:name=".postprocessor.PostprocessorActivity" />
+        <activity
+            android:name=".photoview.PhotoViewActivity"
+            android:label="@string/title_activity_photo_view"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

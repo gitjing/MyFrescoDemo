@@ -68,6 +68,7 @@ public class SimpleShowActivity extends AppCompatActivity {
 
         simpleDraweeViewScalType.getHierarchy().setActualImageFocusPoint(new PointF(0,0));
         simpleDraweeViewScalType.setImageURI(ImageUri.getBaseImage());
+//        simpleDraweeViewScalType.setImageBitmap();  // 不要使用关于ImageView的方法属性
 
 
     }

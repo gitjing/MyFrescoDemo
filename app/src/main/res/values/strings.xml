@@ -8,4 +8,5 @@
     <string name="title_activity_overlay_show">OverlayShowActivity</string>
     <string name="title_activity_gif_image">GifImageActivity</string>
     <string name="title_activity_low_resolution">LowResolutionActivity</string>
+    <string name="title_activity_photo_view">PhotoViewActivity</string>
 </resources>

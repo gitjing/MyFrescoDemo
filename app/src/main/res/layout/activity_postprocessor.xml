@@ -12,7 +12,7 @@
     <com.facebook.drawee.view.SimpleDraweeView
         android:id="@+id/simpleView_processor"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="match_parent"
         fresco:placeholderImage="@color/placeHolder"
         />
 
