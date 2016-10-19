@@ -15,6 +15,7 @@ import com.example.ljj.myfrescodemo.basicusage.FadeDurationActivity;
 import com.example.ljj.myfrescodemo.basicusage.GifImageActivity;
 import com.example.ljj.myfrescodemo.basicusage.LowResolutionActivity;
 import com.example.ljj.myfrescodemo.basicusage.OverlayShowActivity;
+import com.example.ljj.myfrescodemo.basicusage.PlaceHolderActivity;
 import com.example.ljj.myfrescodemo.basicusage.ProgressBarActivity;
 import com.example.ljj.myfrescodemo.basicusage.SimpleShowActivity;
 import com.example.ljj.myfrescodemo.demolist.ActivityHolder;
@@ -49,7 +50,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initActivityHolder() {
-        activityHolder.addActivity("SimpleShow",SimpleShowActivity.class);
+        activityHolder.addActivity("placeHolder",PlaceHolderActivity.class);
+        activityHolder.addActivity("simpleShow",SimpleShowActivity.class);
         activityHolder.addActivity("fadeDuration",FadeDurationActivity.class);
         activityHolder.addActivity("cornerShow",CircleActivity.class);
         activityHolder.addActivity("abnormalShow",AbnormalActivity.class);
