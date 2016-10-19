@@ -48,7 +48,8 @@
         <activity
             android:name=".photoview.PhotoViewActivity"
             android:label="@string/title_activity_photo_view"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".basicusage.PlaceHolderActivity"></activity>
     </application>
 
 </manifest>
